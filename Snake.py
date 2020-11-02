@@ -287,12 +287,12 @@ def draw_menu():
         pygame.draw.rect(screen, arrowl_color, arrow_left, 0)
         pygame.draw.rect(screen, black, arrow_left, 1)
         pygame.draw.rect(screen, black, [arrow_left[0] + 9, arrow_left[1] + 4, arrow_left[2] - 14, arrow_left[3] - 8], 0)
-        pygame.draw.polygon(screen, black, [(arrow_left[0] + 4, arrow_left[1] + 6), (arrow_left[0] + 8, arrow_left[1] + 2), (arrow_left[0] + 8, arrow_left[1] + 10), 0])
+        pygame.draw.polygon(screen, black, [(arrow_left[0] + 4, arrow_left[1] + 6), (arrow_left[0] + 8, arrow_left[1] + 2), (arrow_left[0] + 8, arrow_left[1] + 10)], 0)
     if arr == 1:
         pygame.draw.rect(screen, arrowr_color, arrow_right, 0)
         pygame.draw.rect(screen, black, arrow_right, 1)
         pygame.draw.rect(screen, black, [arrow_right[0] + 5, arrow_right[1] + 4, arrow_right[2] - 14, arrow_right[3] - 8], 0)
-        pygame.draw.polygon(screen, black, [(arrow_right[0] + arrow_right[2] - 5, arrow_right[1] + 6), (arrow_right[0] + arrow_right[2] - 9, arrow_right[1] + 2), (arrow_right[0] + arrow_right[2] - 9, arrow_right[1] + 10), 0])
+        pygame.draw.polygon(screen, black, [(arrow_right[0] + arrow_right[2] - 5, arrow_right[1] + 6), (arrow_right[0] + arrow_right[2] - 9, arrow_right[1] + 2), (arrow_right[0] + arrow_right[2] - 9, arrow_right[1] + 10)], 0)
 
 
 def draw_inf():
